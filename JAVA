@@ -1,0 +1,16 @@
+1. JDK & JRE
+    JDK: Java Development Kit. JAVA 开发工具 （包含JDE）
+    JDE: Java Development Environment, JAVA 运行环境 （包括JVM,JAVA Virtual Machine虚拟机 及 JAVASE API核心类库）
+    
+    
+
+2. 配置环境变量：  
+    Path：windows系统执行命令时要搜寻的路径
+    JAVA_HOME = D:XXXXX
+    %JAVA_HOME% （% %获取变量值）
+    
+    过程 .java文件-> 编译 -> .class文件 -> 运行 -> 结果
+3. 创建文件 - Helloworld.java
+    Class HelloWorld{
+    
+    }
