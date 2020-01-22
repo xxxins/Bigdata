@@ -1,7 +1,8 @@
 1. JDK & JRE
     JDK: Java Development Kit. JAVA 开发工具 （包含JDE）
     JDE: Java Development Environment, JAVA 运行环境 （包括JVM,JAVA Virtual Machine虚拟机 及 JAVASE API核心类库）
-    
+    API: Application Program Interface
+    IDE: Integrated Development Environment 集成开发环境
     
 
 2. 配置环境变量：  
@@ -9,8 +10,26 @@
     JAVA_HOME = D:XXXXX
     %JAVA_HOME% （% %获取变量值）
     
-    过程 .java文件-> 编译 -> .class文件 -> 运行 -> 结果
+    过程 .java文件-> 编译(javac Helloworld.java) -> .class文件 -> 运行 -> 结果
 3. 创建文件 - Helloworld.java
     Class HelloWorld{
-    
+            //单行注释
+            // 如下的main方法是程序的入口
+            Public static void main(String[] args){
+            // arguments:变量名
+                System.out.printIn("Hello World!");
+                
+            /*多行注释
+            */
+            /** 文档注释，可以被java解析
+            */
+            }
     }
+    
+4. 声明
+    在一个JAVA源文件中可以声明多个class。但是，只能最多有一个类声明为public的
+       而且要求声明为public的类的类名必须与源文件名称一致。
+       
+5. 输出语句
+    System.out.printIn(""): //先输出后换行
+    System.out.print(""): // 先输出不换行
